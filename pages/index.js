@@ -16,8 +16,9 @@ export default function Home() {
       </Head>
       <Canvas>
         <ambientLight intensity={0.1} />
-        <pointLight position={[5, 0, -1]} intensity={0.5} />
-        <pointLight position={[-4, 2, 3]} intensity={0.2} />
+        <pointLight position={[2, 1, -1]} intensity={0.5} />
+        <pointLight position={[-2, 1, 3]} intensity={0.3} />
+        <pointLight position={[0, 2, 0]} intensity={0.2} />
         <OrbitControls />
         <Suspense fallback={null}>
           <Cake position={[0, 0, 0]} scale={[18, 18, 18]} />
